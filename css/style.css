@@ -1,0 +1,238 @@
+/*utilidades*/
+.u-title
+{
+	border-bottom: 2px dashed black;
+	color: #00687d;
+	font-size: 1.5em;
+	padding-bottom: 0.5em; 
+	text-align: center;
+}
+
+/*menu*/
+.MainMenu
+{
+	background: black;
+	font-size: 1.2em;
+	height: 3.75em;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top:0;
+}
+.MainMenu-list
+{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item
+{
+	display: inline-block;
+	line-height: 3.7em;
+}
+.MainMenu-link
+{
+	color: white;
+	margin: 0 0.25em; 
+	text-decoration: none;
+}
+
+/*YO*/
+.Header
+{
+	
+	background-image: url(../img/fondo_avatar.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:4em;
+	padding: 0 0 1em 0;
+	text-align: center;
+}
+.Header-image
+{
+	border: solid 3px white;
+	border-radius: 50%;
+	width: 200px;	
+}
+.Header-imageContainer
+{
+	margin: 0;
+	padding: 0;
+}
+.Header-imageDescription
+{
+	color: white;
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+.Header-link 
+{	
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name
+{
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0;
+}
+.Header-name2
+{
+	color: white;
+	font-size: 1em;
+	font-weight: 300;
+	margin: 0;
+}
+
+/*Mi Perfil*/
+.Perfil
+{
+	text-align: center;
+}
+.Perfil-link
+{
+	background: #00687d;
+	border-radius: 2em;
+	color: white;
+	margin: 0 0.5em;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+.Perfil-descripcion
+{
+	margin: 1em 2em;
+	text-align: justify;
+
+}
+
+/*Mi Trabajo*/
+.Trabajo
+{
+	margin-top: 1em;
+	text-align: center;
+}
+.Trabajo-item
+{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+.Trabajo-imagen
+{
+	border: 3px solid #00687d;
+	width: 245px;
+}
+.Trabajo-description
+{
+	
+	font-weight: bold;
+	
+}
+.Trabajo-descripcionTitulo
+{
+	color: #00687d;
+	font-size: 1.2em;
+	font-weight: 550;
+	text-decoration: none;
+
+}
+/*secciones*/
+.Secciones
+{
+	text-align: center;
+}
+.Titulo-secciones
+{
+	border-bottom: dashed 2px black; 
+	color: #00687d;
+	margin-left: 20%;
+	padding-bottom: 0.5em;
+	width: 60%;
+}
+.Secciones-item
+{
+	display: inline-block;
+}
+.Secciones-imagen
+{
+	width: 245px;
+}
+.Seccion-link
+{
+	color: black;
+	text-decoration: none;
+}
+
+/*Contactame*/
+.Footer
+{
+	background: rgba(1,112,154,0.6);
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+
+}
+.Footer-titulo
+{
+	border-bottom: 2px dashed white;
+	color: white;
+	font-size: 1.5em;
+	padding: 0.5em 0;
+}
+.Footer-left
+{
+	color: white;
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 25em;
+}
+.Footer-formulario
+{
+	display: inline-block;
+	padding-top: 1em;
+	text-align: center;
+}
+.Footer-formInput, 
+.Footer-textArea
+{
+	background: white;
+	border: none;
+	border-radius: 2em;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	padding: 0.5em;
+}
+.Footer-textArea
+{
+	resize:none;
+	margin: 0;
+	width: 300px;
+	
+}
+.Footer-button
+{
+	background: #d6803a;
+	border:none;
+	border-radius: 2em;
+	padding: 0.5em
+}
+
+/*mobil*/
+@media only screen and (max-width: 450px) {
+	.MainMenu
+	{
+		height: 6em;
+	}
+	.Header
+	{
+		margin-top: 6em;
+	}
+
+}
+
